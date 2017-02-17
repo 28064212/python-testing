@@ -11,5 +11,5 @@ setup(
         'console_scripts': [
             'pythontesting = pythontesting',
         ],
-},
+	},
 )
