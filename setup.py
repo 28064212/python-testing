@@ -9,7 +9,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points = {
         'console_scripts': [
-            'pythontesting = pythontesting',
+            'pythontesting = pythontesting:main',
         ],
     },
     install_requires = [
